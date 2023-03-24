@@ -1,0 +1,10 @@
+
+{
+   "name" : "divya", "age" : 26, "country" : "India"
+}
+
+onlineusers : [
+{"name" : "divya", "age" : 26, "country" : "India"},
+{"name" : "dhivya", "age" : 26, "country" : "India"},
+{"name" : "dheevya", "age" : 26, "country" : "India"},
+]
