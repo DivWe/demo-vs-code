@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Callback hell</title>
+    </head>
+<body>
+    <script>
+        function add(a,b){
+            return a+b;
+        }
+        function sub(a,b){
+            return a-b;
+        }
+        function mul(a,b){
+            return a*b;
+        }
+        function operation(callback, a, b){
+            return callback(a,b);
+        }
+        console.log(operation(add, 6, 8));
+        console.log(operation(sub, 8, 8));
+        console.log(operation(mul, 6, 8));
+    </script>
+</body>  
+</html>

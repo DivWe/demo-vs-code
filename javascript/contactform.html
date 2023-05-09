@@ -1,0 +1,71 @@
+<html>
+
+<head>
+   <title>CONTACT FORM</title>
+   <style>
+    body{
+        background-color: black;
+    }
+    h1{
+        text-align: center;
+        color:aqua;
+    }
+    div{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUyiZYQQS3Pe99yzzvxixdEVHPE_xFcwn4tQ&usqp=CAU);
+    }
+    form{
+        text-align: center;
+        color:azure
+    }
+    /* .blink{
+        animation: blinker 1.5s linear infinite;
+        color:rgb(244, 78, 186);
+        font-family: sans-serif;
+    } */
+    .blink {
+            animation: blinker 1.5s linear infinite;
+            color: red;
+            font-family: sans-serif;
+        }
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+   </style>
+</head>
+
+<body>
+   <p class = "blink">Are you interested to join our Community?</p>
+   <br><br>
+   <h1><i>Reach out to us</i></h1>
+   <br><br>
+   <hr>
+   <div style = "display:grid">
+   <form>
+    <br><br>
+        <label>Enter your full name</label>
+        <input type ="text" name ="Full_name"/> 
+        <br><br><br>
+        <label>Email address</label>
+        <input type ="text" name ="email"/> 
+        <br><br><br>
+        <label>Country</label>
+            <select>
+            <option value ="India">India</option>
+            <option value ="China">China</option>
+            <option value ="Korea">Korea</option>
+            <option value ="USA">USA</option>
+            <option value ="UAE">UAE</option>
+            <option value ="UK">UK</option>
+            </select>        
+        <br><br><br>
+        <label>Contact number</label>
+        <input type ="text" name ="Country_code" size ="1"/>
+        <input type ="text" name ="Phone_number"/> 
+        <br><br><br>
+   </form>
+   </div>  
+   <hr>
+</body>
+</html>

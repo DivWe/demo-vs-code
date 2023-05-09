@@ -1,2 +1,0 @@
-how to push from vs code to github.
-copy paste the commands from github.
